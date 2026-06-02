@@ -1,0 +1,58 @@
+```gitignore
+# Virtual Environment
+venv/
+env/
+
+# Python Cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Environment Variables
+.env
+
+# Streamlit Cache
+.streamlit/
+
+# Generated Audio Files
+*.mp3
+*.wav
+
+# Generated Subtitle/Transcript Files
+*.srt
+*.txt
+
+# Temporary Files
+temp/
+tmp/
+*.temp
+
+# VS Code
+.vscode/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS Files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Python Build Files
+build/
+dist/
+*.egg-info/
+
+# FFmpeg Temporary Outputs
+ffmpeg-*
+
+# Pytest
+.pytest_cache/
+
+# Coverage
+.coverage
+htmlcov/
+```
