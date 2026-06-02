@@ -1,0 +1,13 @@
+streamlit
+langchain
+langchain-groq
+langchain-core
+python-dotenv
+edge-tts
+pymupdf
+pymupdf4llm
+pydub
+nest_asyncio
+tiktoken
+ffmpeg-python
+
