@@ -1,4 +1,4 @@
-# 🎙️ PDF to Podcast Generator
+# PDF to Podcast Generator
 
 This is a Streamlit-based an advanced AI-powered application that converts PDF documents into engaging multi-speaker podcast conversations
 using Large Language Models and Text-to-Speech synthesis.
@@ -14,7 +14,7 @@ Built using:
 * FFmpeg
 
 ---
-# 🧠 System Workflow
+#  System Workflow
 
 ```text
 PDF Upload
@@ -36,9 +36,9 @@ Final Podcast Export
 
 ---
 
-# 🚀 Features
+#  Features
 
-## 📄 Smart PDF Processing
+## Smart PDF Processing
 
 * Extracts text from PDFs using `PyMuPDF4LLM`
 * Handles large documents efficiently
@@ -46,7 +46,7 @@ Final Podcast Export
 
 ---
 
-## 🤖 AI Podcast Script Generation
+##  AI Podcast Script Generation
 
 * Uses Groq LLM (`llama-3.3-70b-versatile`)
 * Generates natural 2-host podcast conversations
@@ -62,7 +62,7 @@ Final Podcast Export
 
 ---
 
-## 🎧 Realistic Multi-Speaker Audio
+##  Realistic Multi-Speaker Audio
 
 * Converts script into realistic speech using Edge TTS
 * Supports multiple voices and accents
@@ -70,7 +70,7 @@ Final Podcast Export
 
 ---
 
-## 🌍 Multi-Language Support
+##  Multi-Language Support
 
 Supports:
 
@@ -79,13 +79,13 @@ Supports:
 
 ---
 
-## 🎵 Background Music Support
+##  Background Music Support
 
 Optional background music overlay for more immersive podcasts.
 
 ---
 
-## 📜 Transcript & Subtitle Export
+##  Transcript & Subtitle Export
 
 Generate:
 
@@ -95,7 +95,7 @@ Generate:
 
 ---
 
-## 📊 Performance Metrics Dashboard
+##  Performance Metrics Dashboard
 
 Tracks:
 
@@ -109,7 +109,7 @@ Tracks:
 
 ---
 
-# 🛠️ Tech Stack
+#  Tech Stack
 
 | Technology                     | Purpose             |
 | ------------------------------ | ------------------- |
@@ -124,7 +124,7 @@ Tracks:
 
 ---
 
-# 📦 Installation
+#  Installation
 
 ## 1. Clone Repository
 
@@ -183,7 +183,7 @@ ffmpeg -version
 
 ---
 
-# 🔑 Environment Variables
+#  Environment Variables
 
 Create a `.env` file in the root directory:
 
@@ -197,7 +197,7 @@ https://console.groq.com/keys
 
 ---
 
-# ▶️ Run Application
+#  Run Application
 
 ```bash
 streamlit run app.py
@@ -205,7 +205,7 @@ streamlit run app.py
 
 ---
 
-# 📂 Project Structure
+#  Project Structure
 
 ```bash
 pdf-to-podcast-generator/
@@ -224,7 +224,7 @@ pdf-to-podcast-generator/
 
 ---
 
-# 📈 Performance Optimizations
+#  Performance Optimizations
 
 Implemented:
 
@@ -236,7 +236,7 @@ Implemented:
 
 ---
 
-# ⚠️ Current Limitations
+#  Current Limitations
 
 * Scanned PDFs may require OCR support
 * Very large PDFs can increase runtime
@@ -245,7 +245,7 @@ Implemented:
 
 ---
 
-# 🔮 Future Improvements
+#  Future Improvements
 
 Planned upgrades:
 
@@ -261,20 +261,20 @@ Planned upgrades:
 
 ---
 
-# 📸 Demo Features
+#  Demo Features
 
-✅ Upload PDF  
-✅ Select podcast style  
-✅ Choose voices  
-✅ Generate podcast  
-✅ Download audio  
-✅ Export transcript  
-✅ Export subtitles  
-✅ View performance metrics  
+* Upload PDF  
+* Select podcast style  
+* Choose voices  
+* Generate podcast  
+* Download audio  
+* Export transcript  
+* Export subtitles  
+* View performance metrics  
   
 ---
 
-# 🤝 Contributing
+#  Contributing
 
 Contributions are welcome.
 
@@ -285,27 +285,3 @@ Steps:
 3. Commit changes
 4. Open pull request
 
----
-
-# 📜 License
-
-MIT License
-
----
-
-# ⭐ Acknowledgements
-
-* Groq
-* LangChain
-* Microsoft Edge TTS
-* Streamlit
-* FFmpeg
-* PyMuPDF
-
----
-
-# 👨‍💻 Author
-
-Utkarsh Pandey
-
-If you found this project useful, consider starring the repository ⭐
