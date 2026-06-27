@@ -207,7 +207,7 @@ streamlit run app.py
 
 #  Project Structure
 
-```bash
+<!---```bash
 pdf-to-podcast-generator/
 │
 ├── app.py
@@ -217,10 +217,15 @@ pdf-to-podcast-generator/
 ├── transcript.txt
 ├── podcast.srt
 ├── background_music.mp3
-└── README.md
+└── README.md-->
+```bash
+PDF_to_Podcast_Generator/
+├── .gitignore          # standard git exclusion file
+├── README.md           # project overview, tech stack, and installation guides
+├── Workflow.md         # detailed architectural diagrams and process flows
+├── app.py              # main application logic, Streamlit UI, and orchestration
+└── requirements.txt    # python dependencies (langchain, groq, edge-tts, etc.)
 ```
-
----
 
 ---
 
